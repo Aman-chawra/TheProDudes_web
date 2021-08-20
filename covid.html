@@ -1,0 +1,252 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>The Pro Dudes - Technoholic buddies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css
+
+
+
+">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/pro.png"></a>
+        <div class="nav-links" id="navLinks">
+
+            <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+              <li><a href="project.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Covid19 Case-Tracker</h1>
+</section>
+
+
+
+
+<!-- covid india -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- about us content -->
+
+
+
+<!-- Course -->
+
+<!-- campus -->
+
+<!-- facilities -->
+
+<!-- testimonials -->
+
+<!-- -call to action- -->
+
+<!-- footer -->
+<!--
+<section class="footer">
+  <h4>About Us</h4>
+  <p>We love technology!<br>
+The Pro Dudes <br>
+| Aman Chawra | Akshay Tiwari | Aditya Sharma |<br><br>
+
+We are the team of three forever friends(Future Software Engineers).<br>
+yes, we provides technical based videos, any <br>technical based problem
+solution and many more tech based stuff.<br><br>
+
+You can join our ARMY by <br>
+subscribing us~<br>
+as we upload tech based videos twice(more than) a week. <br><br>
+
+------THANKYOU----- <br><br>
+
+For any tech support contact us -thepro.dude183@gmail.com
+</p>
+<div class="icons">
+<i class="fab fa-facebook-square"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-github"></i>
+<i class="fab fa-linkedin-in"></i>
+
+
+</div>
+<p>Made with   <i class="fa fa-heart"></i>    by Aman Chawra</i></p>
+</section>
+
+
+<!-- javascript -->
+<!--
+<script>
+  var navLinks=document.getElementById("navLinks")
+  function showmenu()
+  {
+    navLinks.style.right="0";
+  }
+  function hidemenu()
+  {
+    navLinks.style.right="-200px";
+  }
+</script>
+  </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="c-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css">
+
+
+    <title>COVID-19 STATS - JAVASCRIPT</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/pro.png"></a>
+        <div class="nav-links" id="navLinks">
+          <!-- <i class="fa fa-times" onclick="hidemenu()"></i> -->
+            <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+              <li><a href="project.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Covid Cases Of The World</h1>
+    </section>
+
+
+
+
+
+
+    <main>
+      <div class="stats">
+        <div class="latest-report">
+          <div class="country">
+            <div class="name">Loading...</div>
+            <div class="change-country">change</div>
+            <div class="search-country hide">
+              <div class="search-box">
+                <input
+                  type="text"
+                  id="search-input"
+                  placeholder="Search Country..."
+                />
+                <img class="close" src="images/close.svg" alt="" />
+              </div>
+              <div class="country-list"></div>
+            </div>
+          </div>
+          <div class="total-cases">
+            <div class="title">Total Cases</div>
+            <div class="value">0</div>
+            <div class="new-value">+0</div>
+          </div>
+          <div class="recovered">
+            <div class="title">Recovered</div>
+            <div class="value">0</div>
+            <div class="new-value">+0</div>
+          </div>
+          <div class="deaths">
+            <div class="title">Deaths</div>
+            <div class="value">0</div>
+            <div class="new-value">+0</div>
+          </div>
+        </div>
+        <div class="chart">
+          <canvas id="axes_line_chart"></canvas>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>We love technology!<br>
+    The Pro Dudes <br>
+    | Aman Chawra | Akshay Tiwari | Aditya Sharma |<br><br>
+
+    We are the team of three forever friends(Future Software Engineers).<br>
+    yes, we provides technical based videos, any <br>technical based problem
+    solution and many more tech based stuff.<br><br>
+
+    You can join our ARMY by <br>
+    subscribing us~<br>
+    as we upload tech based videos twice(more than) a week. <br><br>
+
+    ------THANKYOU----- <br><br>
+
+    For any tech support contact us -thepro.dude183@gmail.com
+    </p>
+    <div class="icons">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin-in"></i>
+
+
+    </div>
+    <p>Made with   <i class="fa fa-heart"></i>    by Aman Chawra</i></p>
+    </section>
+
+    <script>
+      var navLinks=document.getElementById("navLinks")
+      function showmenu()
+      {
+        navLinks.style.right="0";
+      }
+      function hidemenu()
+      {
+        navLinks.style.right="-200px";
+      }
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+      integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      language="JavaScript"
+      src="http://www.geoplugin.net/javascript.gp"
+      type="text/javascript"
+    ></script>
+    <script src="countries.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
