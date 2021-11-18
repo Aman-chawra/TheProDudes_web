@@ -46,7 +46,7 @@ main{
   margin-left: -160px;
   /* margin-right: -150px; */
     width: 1519px;
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) ,url('bg.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) ,url('images/bg.jpg');
     background-size:cover;
 
 }
@@ -235,7 +235,7 @@ footer{
 .sub-header{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(16.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(images/16.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -415,29 +415,29 @@ nav .fa{
 .sub-header{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(16.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(images/16.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
   color: #fff;
-    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(16.jpg); */
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/16.jpg); */
 }
 .sub-header img:hover{
 
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
     transition: 0.5s;
-      /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(16.jpg); */
+      /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/16.jpg); */
 
 }
 .sub-header h1{
   font-size: 60px;
   margin-top: 12px;
-  /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(16.jpg); */
+  /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/16.jpg); */
 }
 .header{
   min-height: 100vh;
   min-width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(16.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/16.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
